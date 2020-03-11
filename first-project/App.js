@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import WeatherProject from "./WeatherProject";
+import Button from "./PressDemo"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <WeatherProject></WeatherProject>
+      <Button></Button>
     </View>
   );
 }
