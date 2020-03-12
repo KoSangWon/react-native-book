@@ -3,12 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 import WeatherProject from "./WeatherProject";
 import Button from "./PressDemo"
 import Simple from "./src/bestsellers/SimpleList"
-import BookItem from "./src/bestsellers/BookItem"
+import BookList from "./src/bestsellers/MockBookList"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <BookItem></BookItem>
+      <BookList></BookList>
     </View>
   );
 }
