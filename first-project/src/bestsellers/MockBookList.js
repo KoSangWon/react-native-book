@@ -15,7 +15,25 @@ const mockBooks = [
         title: "MEMORY MAN",
         author: "David Baldacci",
         book_image: "http://du.ec2.nytimes.com.s3.amazonaws.com/prd/books/9781455586387.jpg"
-    }
+    },
+    {
+        rank: 3,
+        title: "CAMINO ISLAND",
+        author: "Jhon Grisham",
+        book_image: "http://du.ec2.nytimes.com.s3.amazonaws.com/prd/books/9780399168796.jpg"
+    },
+    {
+        rank: 4,
+        title: "HOUSE OF SPIES",
+        author: "Daniel Silva",
+        book_image: "http://du.ec2.nytimes.com.s3.amazonaws.com/prd/books/9781455586387.jpg"
+    },
+    {
+        rank: 5,
+        title: "HOMES",
+        author: "David Silva",
+        book_image: "http://du.ec2.nytimes.com.s3.amazonaws.com/prd/books/9780399168796.jpg"
+    },
 ];
 
 class BookList extends Component{

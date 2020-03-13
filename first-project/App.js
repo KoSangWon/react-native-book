@@ -4,6 +4,8 @@ import WeatherProject from "./WeatherProject";
 import Button from "./PressDemo"
 import Simple from "./src/bestsellers/SimpleList"
 import BookList from "./src/bestsellers/MockBookList"
+//import BookList from "./src/bestsellers/BookList"
+
 
 export default function App() {
   return (
